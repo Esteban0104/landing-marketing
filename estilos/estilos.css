@@ -1,0 +1,155 @@
+body {
+  margin: 0%;
+}
+
+/* .banner{
+
+  background-image: radial-gradient(ellipse farthest-corner at 3px 1px , rgba(106, 189, 236, 0.24) 40%, rgba(0, 0, 0, 0) 0%, #fff );
+    &-img{
+        height: auto;
+        width: 50%;
+    }
+} */
+.img-about {
+  max-width: 80%;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.container-tex {
+  margin-top: 50px;
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+}
+
+.container2 p {
+  font-size: 3.3rem;
+  /*    padding: 0.5rem; */
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container2 p span.typed-text {
+  font-weight: normal;
+  color: #3345ec;
+}
+
+.container2 p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  -webkit-animation: blink 1s infinite;
+          animation: blink 1s infinite;
+}
+
+.container2 p span.cursor.typing {
+  -webkit-animation: none;
+          animation: none;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
+
+@keyframes blink {
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
+
+.text1 {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.container-servicios {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  margin-bottom: 0;
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  background-color: #f8f9fa;
+}
+
+.footer-text {
+  color: black;
+  margin-top: 20px;
+  text-align: center;
+}
+
+img-card {
+  padding: 50px;
+  background-color: green;
+  -webkit-transition: -webkit-transform 1.2s;
+  transition: -webkit-transform 1.2s;
+  transition: transform 1.2s;
+  transition: transform 1.2s, -webkit-transform 1.2s;
+  /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.img-card:hover {
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.img-tool {
+  max-width: 10%;
+  margin-top: 20px;
+}
+
+.tool-title {
+  text-align: center;
+}
+
+.text2 {
+  margin-top: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=estilos.css.map */
